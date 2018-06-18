@@ -38,9 +38,9 @@
     <body>
 
     <ul>
-        <li><a class="active" href=" ">Home</a></li>
 
-        <li><a href="about">about</a></li>
+        <li><a href="home">Home</a></li>
+        <li><a href="about">About</a></li>
 
 
 
