@@ -6,31 +6,28 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: #333;
+            border: 1px solid #e7e7e7;
+            background-color: #f3f3f3;
         }
 
         li {
             float: left;
-            border-right:1px solid #bbb;
-        }
-
-        li:last-child {
-            border-right: none;
         }
 
         li a {
             display: block;
-            color: white;
+            color: #666;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
         li a:hover:not(.active) {
-            background-color: #111;
+            background-color: #ddd;
         }
 
-        .active {
+        li a.active {
+            color: white;
             background-color: #4CAF50;
         }
     </style>
@@ -38,9 +35,17 @@
     <body>
 
     <ul>
-
-        <li><a href="home">Home</a></li>
+        <li><a class="active" href="home">Home</a></li>
         <li><a href="about">About</a></li>
+        <li><a href="contact">Contact</a></li>
+        <li><a href="signup">Signup</a></li>
+        <li><a href="signin">Signin</a></li>
+        <li><a href="logout">Logout</a></li>
+        <li><a href="viewmessages">View Messages</a></li>
+
+
+    </ul>
+
 
 
 

@@ -24,3 +24,22 @@ Route::get('/about', function () {
 Route::get('/home', function () {
     return view('pages.home');
 });
+
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/signup', function () {
+    return view('pages.signup');
+});
+
+Route::get('/signin', function () {
+    return view('pages.signin');
+});
+Route::get('/logout', function () {
+    return view('pages.logout');
+});
+Route::get('/viewmessages', function () {
+    return view('pages.viewmessages');
+});
