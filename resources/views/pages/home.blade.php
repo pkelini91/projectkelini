@@ -2,7 +2,8 @@
 @section('content')
    <h1>Hello World! Welcome to my Homepage</h1>
 
-vx
 
+
+   <A HREF="pages/about">About me</A>
 
 @stop
