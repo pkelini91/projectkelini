@@ -4,6 +4,6 @@
 
 
 
-   <A HREF="pages/about">About me</A>
+
 
 @stop
