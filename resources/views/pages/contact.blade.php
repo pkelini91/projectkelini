@@ -1,6 +1,9 @@
 @extends('layouts.default')
 @section('content')
-   <h1>Hello World! Welcome to my contact page</h1>
+
+
+   <br>
+   <h1>Please use the form below to contact the site owner.</h1>
 
    <style>
       body {font-family: Arial, Helvetica, sans-serif;}
@@ -44,36 +47,40 @@
       <div class="card-body">
          <h5 class="card-title">Peter Kelini</h5>
          <p class="card-text">Contact me anytime!.</p>
-         <a href="#" class="btn btn-primary">Link</a>
+         <a href="contact1" class="btn btn-primary">Contact</a>
       </div>
    </div>
 
 
-   <h3>Contact Form</h3>
-
-   <div class="container">
-      <form action="/action_page.php">
-         <label for="fname">Email</label>
-         <input type="text" id="fname" name="Email" placeholder="Email..">
-
-         <label for="lname">Subject</label>
-         <input type="text" id="lname" name="Subject" placeholder="Subject..">
-
-
-         <label for="subject">Message</label>
-         <textarea id="subject" name="Message" placeholder="Write something.." style="height:200px"></textarea>
-
-
-         <input type="submit" value="Submit"  href="contact1" />
-
-         <a href='{!! url('/contact1'); !!}'>Submit</a>
 
 
 
 
+               <div class="card mt-3 pl-2 pr-2">
+                  <div class="card-title"><h1>Contact</h1>
+                     <p class="lead">Please use this form to contact the site owner.</p></div>
+
+                  <div class="card-body">
 
 
+                     <form action="/contact" mehthod="post">
+                        {{ csrf_field() }}
+                         <div class="form-group">
+                           <label for="email">Email address</label>
+                           <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
 
+                        <div class="form-group">
+                           <label for="body">Message</label>
+                           <textarea name="body" class="form-control" id="body" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                        <a href="contact1" class="btn btn-primary">Submit!</a>
+                     </form>
+                  </div>
+               </div>
+
+            </main>
 
 
 
@@ -91,4 +98,4 @@
 
 
 
-@stop
+@endsection

@@ -12,8 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('pages.home');
+    return view('pages.index');
 });
+
+
 
 
 Route::get('/about', function () {
@@ -29,6 +31,9 @@ Route::get('/home', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+
+
 
 Route::get('/signup', function () {
     return view('pages.signup');
@@ -47,3 +52,6 @@ Route::get('/viewmessages', function () {
 Route::get('/contact1', function () {
     return view('pages.contact1');
 });
+
+
+
