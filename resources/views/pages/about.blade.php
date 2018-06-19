@@ -7,6 +7,6 @@
    a cople of months and i really enjoyed the process. It has taught me alot of patiencs and im thankful for that.I enjoy learning new things
    everyday and this course gvies me that chance.Anything new can be a little challenging at first but with a little practive anyone
    can achieve anything they put their mind to.
-
+ 
 
 @stop
