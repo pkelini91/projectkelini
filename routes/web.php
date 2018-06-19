@@ -43,3 +43,7 @@ Route::get('/logout', function () {
 Route::get('/viewmessages', function () {
     return view('pages.viewmessages');
 });
+
+Route::get('/contact1', function () {
+    return view('pages.contact1');
+});

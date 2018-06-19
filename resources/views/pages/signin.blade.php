@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-   <h1>Hello Worl! Welcome to my signin page</h1>
+   <h1>Hello World! Welcome to my signin page</h1>
 
 
    <!DOCTYPE html>

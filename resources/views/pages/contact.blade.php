@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-   <h1>Hello Worl! Welcome to my contact page</h1>
+   <h1>Hello World! Welcome to my contact page</h1>
 
    <style>
       body {font-family: Arial, Helvetica, sans-serif;}
@@ -53,25 +53,42 @@
 
    <div class="container">
       <form action="/action_page.php">
-         <label for="fname">First Name</label>
-         <input type="text" id="fname" name="firstname" placeholder="Your name..">
+         <label for="fname">Email</label>
+         <input type="text" id="fname" name="Email" placeholder="Email..">
 
-         <label for="lname">Last Name</label>
-         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+         <label for="lname">Subject</label>
+         <input type="text" id="lname" name="Subject" placeholder="Subject..">
 
-         <label for="country">Country</label>
-         <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-         </select>
 
-         <label for="subject">Subject</label>
-         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+         <label for="subject">Message</label>
+         <textarea id="subject" name="Message" placeholder="Write something.." style="height:200px"></textarea>
 
-         <input type="submit" value="Submit">
+
+         <input type="submit" value="Submit"  href="contact1" />
+
+         <a href='{!! url('/contact1'); !!}'>Submit</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
       </form>
    </div>
+
+
+
+
+
+
+
 
 
 @stop

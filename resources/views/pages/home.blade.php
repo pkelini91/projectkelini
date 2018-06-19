@@ -5,6 +5,8 @@
 
    <div class="jumbotron">
       <h1 class="display-4">Hello, world!</h1>
+      <img src="flag.jpj" width="500" height="100">
+
       <p class="lead">  Welcome to my homepage!.</p>
       <hr class="my-4">
       <p>  </p>
@@ -38,7 +40,6 @@
 
 
 
-   <img src="flag.jpj" width="100" height="100">
 
 
    
