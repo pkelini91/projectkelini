@@ -11,8 +11,7 @@
         <hr class="my-4">
         <p>  </p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="http://www.yahoo.com" role="button">Yahoo.com!</a>
-        </p>
+         </p>
 
         <style>
             table {

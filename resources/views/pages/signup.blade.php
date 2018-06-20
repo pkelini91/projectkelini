@@ -103,8 +103,8 @@
 
 
          <div class="clearfix">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn">Sign Up</button>
+            <a href="#" class="btn btn-primary">Cancle!</a>
+            <a href="/contact1" class="btn btn-primary">Signup!</a>
          </div>
       </div>
    </form>

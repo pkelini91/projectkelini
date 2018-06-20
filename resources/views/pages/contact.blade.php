@@ -47,8 +47,7 @@
       <div class="card-body">
          <h5 class="card-title">Peter Kelini</h5>
          <p class="card-text">Contact me anytime!.</p>
-         <a href="contact1" class="btn btn-primary">Contact</a>
-      </div>
+       </div>
    </div>
 
 
