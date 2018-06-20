@@ -103,7 +103,7 @@
 
 
          <div class="clearfix">
-            <a href="#" class="btn btn-primary">Cancle!</a>
+            <a href="#" class="btn btn-primary">Cancel!</a>
             <a href="/contact1" class="btn btn-primary">Signup!</a>
          </div>
       </div>
